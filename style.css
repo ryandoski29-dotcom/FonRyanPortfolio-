@@ -1,0 +1,29 @@
+/* ===== Base ===== */
+:root {
+  --ink: #1c1a17;
+  --paper: #f7f4ee;
+  --steel: #40474f;
+  --rust: #b5502e;
+  --sand: #ddd3bd;
+  --line: #d8d1c1;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Georgia", "Iowan Old Style", serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
